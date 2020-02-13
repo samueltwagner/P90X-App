@@ -80,3 +80,4 @@
 /Users/swagner/Desktop/P90X-App/obj/Debug/netcoreapp3.0/WorkoutApp.csproj.CopyComplete
 /Users/swagner/Desktop/P90X-App/obj/Debug/netcoreapp3.0/WorkoutApp.dll
 /Users/swagner/Desktop/P90X-App/obj/Debug/netcoreapp3.0/WorkoutApp.pdb
+/Users/swagner/Desktop/P90X-App/bin/Debug/netcoreapp3.0/package.json
