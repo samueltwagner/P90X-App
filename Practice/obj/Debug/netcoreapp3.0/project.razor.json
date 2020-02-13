@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/swagner/Desktop/P90X-App/WorkoutApp.csproj",
+  "FilePath": "/Users/swagner/Desktop/P90X-App/Practice/WorkoutApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14434,13 +14434,13 @@
   "RootNamespace": "WorkoutApp",
   "Documents": [
     {
-      "FilePath": "/Users/swagner/Desktop/P90X-App/Pages/Error.cshtml",
-      "TargetPath": "Pages/Error.cshtml",
+      "FilePath": "/Users/swagner/Desktop/P90X-App/Practice/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages/_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/swagner/Desktop/P90X-App/Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages/_ViewImports.cshtml",
+      "FilePath": "/Users/swagner/Desktop/P90X-App/Practice/Pages/Error.cshtml",
+      "TargetPath": "Pages/Error.cshtml",
       "FileKind": "mvc"
     }
   ],
