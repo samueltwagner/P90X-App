@@ -6620,11 +6620,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/swagner/Desktop/P90X-App/WorkoutApp.csproj",
+      "projectUniqueName": "/Users/swagner/Desktop/P90X-App/Practice/WorkoutApp.csproj",
       "projectName": "WorkoutApp",
-      "projectPath": "/Users/swagner/Desktop/P90X-App/WorkoutApp.csproj",
+      "projectPath": "/Users/swagner/Desktop/P90X-App/Practice/WorkoutApp.csproj",
       "packagesPath": "/Users/swagner/.nuget/packages/",
-      "outputPath": "/Users/swagner/Desktop/P90X-App/obj/",
+      "outputPath": "/Users/swagner/Desktop/P90X-App/Practice/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

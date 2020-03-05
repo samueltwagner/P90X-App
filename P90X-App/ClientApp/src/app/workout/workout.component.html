@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-md-5">
+        <!-- workout list where workoutBlock.Id = 1 -->
+        <app-workout-block (selectedWorkoutBlockEvent)="selectedWorkoutBlock = $event"></app-workout-block>
+    </div>
+    <div class="col-md-5">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+
+
