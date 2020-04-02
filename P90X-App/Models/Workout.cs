@@ -9,20 +9,24 @@ namespace P90X_App.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
+        public string Workout_Id { get; set; }
 
         public string WorkoutTitle {get; set;}
-        public string ExerciseTitle { get; set; }
 
-        public int Reps { get; set; }
+        public bool Status_Workout { get; set; }
 
-        public float Weight { get; set; }
+        public bool Status_Diet { get; set; }
 
-        public string Side { get; set; }
+        public int DayNumber { get; set; }
+        public int WeekNumber { get; set; }
 
-        public string WorkoutStatus { get; set; }
+        public int BlockNumber { get; set; }
+        public DateTime Date_Workout_Completed { get; set; }
 
-        public string DietStatus { get; set; }
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Exercise {get; set;}
 
-        public WorkoutBlock WorkoutBlock { get; set;}
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string User { get; set;}
     }
 }

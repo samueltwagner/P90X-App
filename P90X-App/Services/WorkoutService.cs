@@ -9,12 +9,12 @@ namespace P90X_App.Services
     {
         private readonly IMongoCollection<Workout> _workouts;
 
-        public WorkoutService(IWorkoutAppDatabaseSettings settings)
+        public WorkoutService(IP90X_AppDatabaseSettings settings)
         {
             var client = new MongoClient(settings.ConnectionString);
-            var database = client.GetDatabase(settings.DatabaseName);
+            var database = client.GetDatabase("P90X_App");
 
-            _workouts = database.GetCollection<Workout>(settings.WorkoutCollectionName);
+            _workouts = database.GetCollection<Workout>("workouts");
         }
 
         public List<Workout> Get() =>
@@ -23,19 +23,8 @@ namespace P90X_App.Services
         public Workout Get(string id) =>
             _workouts.Find<Workout>(workout => workout.Id == id).FirstOrDefault();
 
-        public Workout Create(Workout workout)
-        {
-            _workouts.InsertOne(workout);
-            return workout;
-        }
-
         public void Update(string id, Workout workoutIn) =>
             _workouts.ReplaceOne(workout => workout.Id == id, workoutIn);
 
-        public void Remove(Workout workoutIn) =>
-            _workouts.DeleteOne(workout => workout.Id == workoutIn.Id);
-
-        public void Remove(string id) => 
-            _workouts.DeleteOne(workout => workout.Id == id);
     }
 }

@@ -5,27 +5,28 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
-import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { AppRoutingModule } from './app-routing.module';
+import { WorkoutComponent } from './workout/workout.component';
+import { WorkoutDetailComponent } from './workout/workout-detail/workout-detail.component';
+import { WorkoutEditComponent } from './workout/workout-edit/workout-edit.component';
+import { WorkoutItemComponent } from './workout/workout-list/workout-item/workout-item.component';
+import { WorkoutListComponent } from './workout/workout-list/workout-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
-    HomeComponent,
-    CounterComponent,
-    FetchDataComponent
+    WorkoutDetailComponent,
+    WorkoutEditComponent,
+    WorkoutItemComponent,
+    WorkoutListComponent,
+    WorkoutComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
-    ])
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

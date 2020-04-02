@@ -1,21 +1,84 @@
 <div class="panel panel-default">
-    <div class="panel-heading">
-        <div class="pull-right pad-left-right">
-            <a class="btn btn-success" [routerLink]="['new']">Add Workout</a>
-        </div>
-    </div>
-    <div class="panel-body">
-        <div class="row">
-            <div class="col-xs-12" id="workoutList">
-                <app-workout-item *ngFor="let workout of workouts"
-                [workout]="workout"></app-workout-item>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="input-group pull-left pad-left-right col-xs-7">
-            <!-- <input type="text" class="form-control" placeholder="Enter Search Value" #searchBox (keyup)="onKeyPress(searchBox.value)" /> -->
-            <div class="glyphicon glyphicon glyphicon-search input-group-addon" (click)="search(searchBox.value)"></div>
-        </div>
+    <div class="row" id="workout-list">
+        <app-workout-item id="item" class="col-sm-auto" *ngFor="let workout of workouts" [workout]="workout"></app-workout-item>
     </div>
 </div>
+
+
+<!-- Block 2 -->
+<!-- <div class="block">
+    <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#block2" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Block 2
+        </a>
+    </p>
+    <div class="collapse" id="block2">
+        <div class="card card-body"> -->
+        <!-- Fill this with Workout List -->
+        <!-- <table>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>Week 5</td>	
+            </tr>
+            <tr>
+                <td>Week 6</td>	
+            </tr>
+            <tr>
+                <td>Week 7</td>	
+            </tr>
+            <tr>
+                <td>Week 8</td>	
+            </tr>
+        </table>
+        </div>
+    </div>
+</div> -->
+<!-- Block 3 -->
+<!-- <div class="block">
+    <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#block3" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Block 3
+        </a>
+    </p>
+    <div class="collapse" id="block3">
+        <div class="card card-body"> -->
+        <!-- Fill this with Workout List -->
+        <!-- <table>
+            <tr>
+                <th></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td>Week 9</td>	
+            </tr>
+            <tr>
+                <td>Week 10</td>	
+            </tr>
+            <tr>
+                <td>Week 11</td>	
+            </tr>
+            <tr>
+                <td>Week 12</td>	
+            </tr>
+            <tr>
+                <td>Week 13</td>	
+            </tr>
+        </table>
+        </div>
+    </div>
+</div> -->

@@ -1,0 +1,12 @@
+#panel-detail {
+    border: lightgrey 1px solid;
+    margin: 0;
+    width: 300px;
+    height: 880px;
+    padding: 40px;
+}
+
+#panel-detail label {
+    padding: 5px;
+}
+

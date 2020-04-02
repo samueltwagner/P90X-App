@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Workout } from '../workout.model';
 import { WorkoutService } from '../workout.service';
 import { Router, ActivatedRoute, Params } from '@angular/router';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-workout-detail',
@@ -25,8 +26,7 @@ export class WorkoutDetailComponent implements OnInit {
       }
     )};
 
-    onDelete(){
-      this.workoutService.deleteWorkout(this.workout);
-      this.router.navigate(['/workouts'], {relativeTo: this.route}); 
-    }
+    checkValue(event: any){
+      console.log(event);
+   }
 }

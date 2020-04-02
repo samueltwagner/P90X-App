@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Provide sufficient contrast against white background */
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
 a {
   color: #0366d6;
 }
@@ -14,3 +17,14 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+}
+

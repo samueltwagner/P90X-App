@@ -12,13 +12,13 @@ export class WorkoutService {
   constructor(private http: HttpClient) {}
 
   sortAndSend() {
-    // this.workouts.sort((a, b) => (a.date > b.date) ? 1 : ((b.date > a.date) ? -1 : 0));
     this.workoutListChangedEvent.next(this.workouts.slice());
   }
 
   //GET
   getWorkouts() {
     return this.http.get<{ message: string, workouts: Workout[] }>
+    // MONGO ATLAS API CONNECTION STRING: mongodb+srv://admin:Password1234@p90x-xaviq.mongodb.net/test?retryWrites=true&w=majority
       ('https://localhost:5001/api/workout/')
       .subscribe(
         (workoutData) => {

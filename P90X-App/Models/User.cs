@@ -9,6 +9,7 @@ namespace P90X_App.Models
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
+        public string User_Id { get; set; }
 
         public string FirstName { get; set; }
 
@@ -18,6 +19,8 @@ namespace P90X_App.Models
 
         public string Password { get; set; }
 
-        public float UserWeight { get; set; }
+        public int StartWeight { get; set; }
+
+        public int CurrentWeight { get; set; }
     }
 }

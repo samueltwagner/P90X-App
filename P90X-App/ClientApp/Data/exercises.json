@@ -1,0 +1,103 @@
+{"_id":{"$oid":"5e64213f6ffedc70f9201bc4"},"Exercise_Id":"1","ExerciseTitle":"Push-Up/Side Arm Balance"}
+{"_id":{"$oid":"5e64248c6ffedc70f9201bcb"},"Exercise_id":"2","Exercise_Title":"Crescent Chair"}
+{"_id":{"$oid":"5e642760ab183f70f9c1a7af"},"Exercise_id":"3","Exercise_Title":"Pull Knee Pull"}
+{"_id":{"$oid":"5e642773ab183f70f9c1a7b0"},"Exercise_id":"4","Exercise_Title":"Flip Flop Crunch"}
+{"_id":{"$oid":"5e6427a3ab183f70f9c1a7b1"},"Exercise_id":"5","Exercise_Title":"Crawly Plyo Push-Ups"}
+{"_id":{"$oid":"5e6427baab183f70f9c1a7b2"},"Exercise_id":"6","Exercise_Title":"Releve-Plie, Weighted"}
+{"_id":{"$oid":"5e6427d2ab183f70f9c1a7b3"},"Exercise_id":"7","Exercise_Title":"Chin-Up Circle Crunch"}
+{"_id":{"$oid":"5e6427dfab183f70f9c1a7b4"},"Exercise_id":"8","Exercise_Title":"Boat Plow"}
+{"_id":{"$oid":"5e642809ab183f70f9c1a7b5"},"Exercise_id":"9","Exercise_Title":"Balance Arch Press Right"}
+{"_id":{"$oid":"5e642814ab183f70f9c1a7b6"},"Exercise_id":"10","Exercise_Title":"Balance Arch Press Left"}
+{"_id":{"$oid":"5e642836ab183f70f9c1a7b7"},"Exercise_id":"11","Exercise_Title":"3 Hop Press"}
+{"_id":{"$oid":"5e642849ab183f70f9c1a7b8"},"Exercise_id":"12","Exercise_Title":"Glamour Hammer Right"}
+{"_id":{"$oid":"5e642856ab183f70f9c1a7b9"},"Exercise_id":"13","Exercise_Title":"Glamour Hammer Left"}
+{"_id":{"$oid":"5e642866ab183f70f9c1a7ba"},"Exercise_id":"14","Exercise_Title":"Branon Boat"}
+{"_id":{"$oid":"5e642879ab183f70f9c1a7bb"},"Exercise_id":"15","Exercise_Title":"Flying Warrior Right"}
+{"_id":{"$oid":"5e64288aab183f70f9c1a7bc"},"Exercise_id":"16","Exercise_Title":"Flying Warrior Left"}
+{"_id":{"$oid":"5e642896ab183f70f9c1a7bd"},"Exercise_id":"17","Exercise_Title":"Squat Rockers"}
+{"_id":{"$oid":"5e6428a3ab183f70f9c1a7be"},"Exercise_id":"18","Exercise_Title":"Side Rise Punch Right"}
+{"_id":{"$oid":"5e6428aeab183f70f9c1a7bf"},"Exercise_id":"19","Exercise_Title":"Side Rise Punch Left"}
+{"_id":{"$oid":"5e6428beab183f70f9c1a7c0"},"Exercise_id":"20","Exercise_Title":"Warrior Squat Moon Right"}
+{"_id":{"$oid":"5e6428c6ab183f70f9c1a7c1"},"Exercise_id":"21","Exercise_Title":"Warrior Squat Moon Left"}
+{"_id":{"$oid":"5e642c49ab183f70f9c1a7c5"},"Exercise_id":"22","Exercise_Title":"Wide Pull-Up"}
+{"_id":{"$oid":"5e642c5eab183f70f9c1a7c6"},"Exercise_id":"23","Exercise_Title":"Standard Push-Up"}
+{"_id":{"$oid":"5e642c7dab183f70f9c1a7c7"},"Exercise_id":"24","Exercise_Title":"Wide Pull-Up"}
+{"_id":{"$oid":"5e84d5c933815cec212090bf"},"Exercise_id":"25","Exercise_Title":"Standard Push-Up"}
+{"_id":{"$oid":"5e84d5f333815cec212090c2"},"Exercise_id":"26","Exercise_Title":"Chin-Up"}
+{"_id":{"$oid":"5e84d60533815cec212090c3"},"Exercise_id":"27","Exercise_Title":"Military Push-Up"}
+{"_id":{"$oid":"5e84d61233815cec212090c4"},"Exercise_id":"28","Exercise_Title":"Chin-Up"}
+{"_id":{"$oid":"5e84d62933815cec212090c5"},"Exercise_id":"29","Exercise_Title":"Military Push-Up"}
+{"_id":{"$oid":"5e84d63733815cec212090c6"},"Exercise_id":"30","Exercise_Title":"Close Grip Pull-Up"}
+{"_id":{"$oid":"5e84d64c33815cec212090c7"},"Exercise_id":"31","Exercise_Title":"Wide Push-Up"}
+{"_id":{"$oid":"5e84d66333815cec212090c8"},"Exercise_id":"32","Exercise_Title":"Close Grip Pull-Up"}
+{"_id":{"$oid":"5e84d66f33815cec212090c9"},"Exercise_id":"33","Exercise_Title":"Wide Push-Up"}
+{"_id":{"$oid":"5e84d68133815cec212090ca"},"Exercise_id":"34","Exercise_Title":"Vaulter Pull-Up Right"}
+{"_id":{"$oid":"5e84d6a033815cec212090cb"},"Exercise_id":"35","Exercise_Title":"Staggered Push-Up Right"}
+{"_id":{"$oid":"5e84d6b233815cec212090cc"},"Exercise_id":"36","Exercise_Title":"Vaulter Pull-Up Left"}
+{"_id":{"$oid":"5e84d6d233815cec212090cd"},"Exercise_id":"37","Exercise_Title":"Staggered Push-Up Left"}
+{"_id":{"$oid":"5e84d6fe33815cec212090ce"},"Exercise_id":"38","Exercise_Title":"Burnout"}
+{"_id":{"$oid":"5e84d78833815cec212090cf"},"Exercise_id":"39","Exercise_Title":"Standard Push-Ups"}
+{"_id":{"$oid":"5e84d79433815cec212090d0"},"Exercise_id":"40","Exercise_Title":"Standard Pull-Ups"}
+{"_id":{"$oid":"5e84d7a233815cec212090d1"},"Exercise_id":"41","Exercise_Title":"Military Press"}
+{"_id":{"$oid":"5e84d7b333815cec212090d2"},"Exercise_id":"42","Exercise_Title":"Military Push-Ups"}
+{"_id":{"$oid":"5e84de4033815cec212090d3"},"Exercise_id":"43","Exercise_Title":"Chin-Ups"}
+{"_id":{"$oid":"5e84de5733815cec212090d4"},"Exercise_id":"44","Exercise_Title":"Deep Swimmer's Press"}
+{"_id":{"$oid":"5e84de6333815cec212090d5"},"Exercise_id":"45","Exercise_Title":"Fly Push-Ups"}
+{"_id":{"$oid":"5e84de7f33815cec212090d6"},"Exercise_id":"46","Exercise_Title":"V Pull-Ups"}
+{"_id":{"$oid":"5e84de9933815cec212090d7"},"Exercise_id":"47","Exercise_Title":"Upright Hammer Pull"}
+{"_id":{"$oid":"5e84deb033815cec212090d8"},"Exercise_id":"48","Exercise_Title":"Staggered Push-Ups Right"}
+{"_id":{"$oid":"5e84debb33815cec212090d9"},"Exercise_id":"49","Exercise_Title":"Staggered Push-Ups Left"}
+{"_id":{"$oid":"5e84dec933815cec212090da"},"Exercise_id":"50","Exercise_Title":"Rocket Launcher Row"}
+{"_id":{"$oid":"5e84dedc33815cec212090db"},"Exercise_id":"51","Exercise_Title":"Lateral/Anterior Raise"}
+{"_id":{"$oid":"5e84deee33815cec212090dc"},"Exercise_id":"52","Exercise_Title":"Plyo Push-Ups"}
+{"_id":{"$oid":"5e84df0133815cec212090dd"},"Exercise_id":"53","Exercise_Title":"Vaulter Pull-Ups Right"}
+{"_id":{"$oid":"5e84df0a33815cec212090de"},"Exercise_id":"54","Exercise_Title":"Vaulter Pull-Ups Left"}
+{"_id":{"$oid":"5e84df2c33815cec212090df"},"Exercise_id":"55","Exercise_Title":"Pterodactyl Flys"}
+{"_id":{"$oid":"5e84df3c33815cec212090e0"},"Exercise_id":"56","Exercise_Title":"Rocket Launcher Kickback"}
+{"_id":{"$oid":"5e84df4a33815cec212090e1"},"Exercise_id":"57","Exercise_Title":"Flip Flop Combo"}
+{"_id":{"$oid":"5e84df5933815cec212090e2"},"Exercise_id":"58","Exercise_Title":"Tricep Skyfers Right"}
+{"_id":{"$oid":"5e84df6b33815cec212090e3"},"Exercise_id":"59","Exercise_Title":"Tricep Skyfers Left"}
+{"_id":{"$oid":"5e84df7a33815cec212090e4"},"Exercise_id":"60","Exercise_Title":"Kneeling Preacher Curl"}
+{"_id":{"$oid":"5e84df8733815cec212090e5"},"Exercise_id":"61","Exercise_Title":"Burnout"}
+{"_id":{"$oid":"5e84e05d33815cec212090e6"},"Exercise_id":"62","Exercise_Title":"Squat"}
+{"_id":{"$oid":"5e84e06b33815cec212090e7"},"Exercise_id":"63","Exercise_Title":"Lunge Right"}
+{"_id":{"$oid":"5e84e08533815cec212090e8"},"Exercise_id":"64","Exercise_Title":"Lunge Left"}
+{"_id":{"$oid":"5e84e09033815cec212090e9"},"Exercise_id":"65","Exercise_Title":"Sumo"}
+{"_id":{"$oid":"5e84e0a133815cec212090ea"},"Exercise_id":"66","Exercise_Title":"Weighted Pistol Right"}
+{"_id":{"$oid":"5e84e0b233815cec212090eb"},"Exercise_id":"67","Exercise_Title":"Weighted Pistol Left"}
+{"_id":{"$oid":"5e84e0c033815cec212090ec"},"Exercise_id":"68","Exercise_Title":"Side Kick Right"}
+{"_id":{"$oid":"5e84e0ce33815cec212090ed"},"Exercise_id":"69","Exercise_Title":"Side Kick Left"}
+{"_id":{"$oid":"5e84e0db33815cec212090ee"},"Exercise_id":"70","Exercise_Title":"Front Kick Right"}
+{"_id":{"$oid":"5e84e0e733815cec212090ef"},"Exercise_id":"71","Exercise_Title":"Front Kick Left"}
+{"_id":{"$oid":"5e84e0fd33815cec212090f0"},"Exercise_id":"72","Exercise_Title":"Albanian Squat Right"}
+{"_id":{"$oid":"5e84e10733815cec212090f1"},"Exercise_id":"73","Exercise_Title":"Albanian Squat Left"}
+{"_id":{"$oid":"5e84e11d33815cec212090f2"},"Exercise_id":"74","Exercise_Title":"Adductor Lunge Right"}
+{"_id":{"$oid":"5e84e12633815cec212090f3"},"Exercise_id":"75","Exercise_Title":"Adductor Lunge Left"}
+{"_id":{"$oid":"5e84e13933815cec212090f4"},"Exercise_id":"76","Exercise_Title":"Cross Reach Right"}
+{"_id":{"$oid":"5e84e14633815cec212090f5"},"Exercise_id":"77","Exercise_Title":"Cross Reach Left"}
+{"_id":{"$oid":"5e84e15333815cec212090f6"},"Exercise_id":"78","Exercise_Title":"TT Plus Right"}
+{"_id":{"$oid":"5e84e15b33815cec212090f7"},"Exercise_id":"79","Exercise_Title":"TT Plus Left"}
+{"_id":{"$oid":"5e84e16833815cec212090f8"},"Exercise_id":"80","Exercise_Title":"Bridge Kicks Right"}
+{"_id":{"$oid":"5e84e17133815cec212090f9"},"Exercise_id":"81","Exercise_Title":"Bridge Kicks Left"}
+{"_id":{"$oid":"5e84e17d33815cec212090fa"},"Exercise_id":"82","Exercise_Title":"Hip Flexor Splits"}
+{"_id":{"$oid":"5e84e18833815cec212090fb"},"Exercise_id":"83","Exercise_Title":"Calf Dog Right"}
+{"_id":{"$oid":"5e84e19333815cec212090fc"},"Exercise_id":"84","Exercise_Title":"Calf Dog Left"}
+{"_id":{"$oid":"5e84e1d433815cec212090fd"},"Exercise_id":"85","Exercise_Title":"Renegade Row"}
+{"_id":{"$oid":"5e84e1e333815cec212090fe"},"Exercise_id":"86","Exercise_Title":"Pull-Ups"}
+{"_id":{"$oid":"5e84e1ed33815cec212090ff"},"Exercise_id":"87","Exercise_Title":"Floor Flys"}
+{"_id":{"$oid":"5e84e1f833815cec21209100"},"Exercise_id":"88","Exercise_Title":"Push-Ups"}
+{"_id":{"$oid":"5e84e20433815cec21209101"},"Exercise_id":"89","Exercise_Title":"Rocket Launcher Row"}
+{"_id":{"$oid":"5e84e20f33815cec21209102"},"Exercise_id":"90","Exercise_Title":"Chin-Ups"}
+{"_id":{"$oid":"5e84e21933815cec21209103"},"Exercise_id":"91","Exercise_Title":"\"A\" Press"}
+{"_id":{"$oid":"5e84e22533815cec21209104"},"Exercise_id":"92","Exercise_Title":"Military Push-Ups"}
+{"_id":{"$oid":"5e84e23333815cec21209105"},"Exercise_id":"93","Exercise_Title":"Monkey Pump"}
+{"_id":{"$oid":"5e84e23c33815cec21209106"},"Exercise_id":"94","Exercise_Title":"Pike Press"}
+{"_id":{"$oid":"5e84e24d33815cec21209107"},"Exercise_id":"95","Exercise_Title":"Pterodactyl flys"}
+{"_id":{"$oid":"5e84e25633815cec21209108"},"Exercise_id":"96","Exercise_Title":"Flipper"}
+{"_id":{"$oid":"5e84e26733815cec21209109"},"Exercise_id":"97","Exercise_Title":"Popeye Hammer Curls"}
+{"_id":{"$oid":"5e84e27233815cec2120910a"},"Exercise_id":"98","Exercise_Title":"Kneeler Curls"}
+{"_id":{"$oid":"5e84e27e33815cec2120910b"},"Exercise_id":"99","Exercise_Title":"Hail to the Chief"}
+{"_id":{"$oid":"5e84e28833815cec2120910c"},"Exercise_id":"100","Exercise_Title":"Skyfers"}
+{"_id":{"$oid":"5e84e29133815cec2120910d"},"Exercise_id":"101","Exercise_Title":"Arm and Hammer"}
+{"_id":{"$oid":"5e84e29e33815cec2120910e"},"Exercise_id":"102","Exercise_Title":"Rocket Launcher Kickbacks"}
+{"_id":{"$oid":"5e84e2a833815cec2120910f"},"Exercise_id":"103","Exercise_Title":"Burnout"}

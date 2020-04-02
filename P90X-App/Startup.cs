@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using P90X_App.Services;
+using P90X_App.Models;
 
 namespace P90X_App
 {
@@ -13,11 +16,6 @@ namespace P90X_App
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            // options.SupplyData = (context, data) =>
-{
-            // Creates a new value called isHttpsRequest that's passed to TypeScript code
-            // data["isHttpsRequest"] = context.Request.IsHttps;
-            };
         }
 
         public IConfiguration Configuration { get; }
@@ -25,12 +23,24 @@ namespace P90X_App
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+              // requires using Microsoft.Extensions.Options
+            services.Configure<P90X_AppDatabaseSettings>(
+                Configuration.GetSection(nameof(P90X_AppDatabaseSettings)));
+            services.AddCors();
+            services.AddSingleton<IP90X_AppDatabaseSettings>(sp =>
+                sp.GetRequiredService<IOptions<P90X_AppDatabaseSettings>>().Value);
+
+            services.AddSingleton<WorkoutService>();
+
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+
+             
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -6,14 +6,15 @@ export class Workout {
 
     constructor(
         public id: string,
+        public workout_id: string,
         public workoutTitle: string,
-        public exerciseTitle: string,
-        public reps: number,
-        public weight: number,
-        public side: string,
-        public workoutStatus: string,
-        public dietStatus: string,
-        //workoutBlock : workoutBlock
-        public workoutBlock: string
+        public workoutStatus: boolean,
+        public dietStatus: boolean,
+        public dayNumber: number,
+        public weekNumber: number,
+        public blockNumber: number,
+        public date_Workout_Completed: string,
+        public exercise: string,
+        public user: string
     ) {}
 }

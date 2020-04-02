@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5e6411f56ffedc70f9201bc1"},"User_id":"1","FirstName":"Sam","LastName":"Wagner","Email":"theoriginalswagner@gmail.com","Password":"password","StartingWeight":{"$numberInt":"223"},"CurrentWeight":"200"}

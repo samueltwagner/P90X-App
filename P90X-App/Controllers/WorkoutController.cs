@@ -2,6 +2,7 @@ using P90X_App.Models;
 using P90X_App.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System;
 
 namespace P90X_App.Controllers
 {
@@ -24,6 +25,7 @@ namespace P90X_App.Controllers
         public ActionResult<Workout> Get(string id)
         {
             var workout = _workoutService.Get(id);
+            
 
             if (workout == null)
             {
@@ -31,14 +33,6 @@ namespace P90X_App.Controllers
             }
 
             return workout;
-        }
-
-        [HttpPost]
-        public ActionResult<Workout> Create(Workout workout)
-        {
-            _workoutService.Create(workout);
-
-            return CreatedAtRoute("GetWorkout", new { id = workout.Id.ToString() }, workout);
         }
 
         [HttpPut("{id:length(24)}")]
@@ -56,19 +50,5 @@ namespace P90X_App.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
-        public IActionResult Delete(string id)
-        {
-            var workout = _workoutService.Get(id);
-
-            if (workout == null)
-            {
-                return NotFound();
-            }
-
-            _workoutService.Remove(workout.Id);
-
-            return NoContent();
-        }
     }
 }

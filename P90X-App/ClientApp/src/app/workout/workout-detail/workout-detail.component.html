@@ -1,19 +1,20 @@
 <div id="panel-detail" class="panel panel-default">
 	<div class="panel-heading">
 		<div class="row">
-			<div class="col-xs-12">
-				<h2>{{ workout?.description }}</h2>
+			<div class="col-xs-2">
+				<h2>{{ workout?.workoutTitle }}</h2>
 			</div>
 		</div>
 		<div class="panel-body">
-			<!-- <p><b>Date:</b> {{ workout?.date | date : shortDate }}</p> -->
-			<p><b>Exercise:</b> {{ workout?.exercise }}<b>R:</b>{{ workout?.reps }}<b>W:</b> {{ workout?.weight }}</p>
+			<p>{{ workout?.exercise }}</p>
 		</div>
 		<div class="row">
-			<div class="col-xs-3 btn-toolbar">
+			<div class="col-xs-2 checkbox">
+				<label>Workout Status <input type="checkbox" [(ngModel)]="workoutChecked" (change)="checkValue(workoutChecked?'Yes':'No')"></label>
+				<label>Diet Status <input type="checkbox" [(ngModel)]="dietChecked" (change)="checkValue(dietChecked?'Yes':'No')"></label>
+			</div>
+			<div class="col-xs-2 btn-toolbar">
 				<a class="btn btn-primary" [routerLink]="['/workouts', workout ? workout.id : 0, 'edit']">Edit</a>
-				<hr>
-				<a class="btn btn-danger" (click)="onDelete()">Delete</a>
 			</div>
 		</div>
 	</div>

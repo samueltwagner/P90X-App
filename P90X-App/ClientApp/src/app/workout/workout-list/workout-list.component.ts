@@ -19,7 +19,7 @@ export class WorkoutListComponent implements OnInit, OnDestroy  {
 
     ngOnInit() {
       this.workoutService.getWorkouts();
-      this. subscription = this.workoutService.workoutListChangedEvent
+      this.subscription = this.workoutService.workoutListChangedEvent
         .subscribe((workoutList: Workout[]) => { 
           this.workouts = workoutList;
         });
