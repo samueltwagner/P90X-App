@@ -14,9 +14,11 @@ namespace P90X_App.Models
 
         public int Weight { get; set; }
 
-        public User User_Id { get; set;}
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string User { get; set;}
 
-        public Exercise Exercise_Id {get; set;}
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string Exercise {get; set;}
 
     }
 }

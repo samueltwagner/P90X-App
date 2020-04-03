@@ -2,7 +2,7 @@ using P90X_App.Models;
 using P90X_App.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System;
+
 
 namespace P90X_App.Controllers
 {
@@ -38,9 +38,9 @@ namespace P90X_App.Controllers
         [HttpPut("{id:length(24)}")]
         public IActionResult Update(string id, Exercise exerciseIn)
         {
-            var workout = _exerciseService.Get(id);
+            var exercise = _exerciseService.Get(id);
 
-            if (workout == null)
+            if (exercise == null)
             {
                 return NotFound();
             }

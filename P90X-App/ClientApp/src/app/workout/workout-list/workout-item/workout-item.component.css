@@ -3,6 +3,10 @@
     font-size: 16px;
 }
 
+#workout-item h4{
+    color: black;
+}
+
 #block {
     height: 150px;
     width: 100px;

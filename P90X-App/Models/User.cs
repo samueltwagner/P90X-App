@@ -19,7 +19,7 @@ namespace P90X_App.Models
 
         public string Password { get; set; }
 
-        public int StartWeight { get; set; }
+        public int StartingWeight { get; set; }
 
         public int CurrentWeight { get; set; }
     }

@@ -4,9 +4,25 @@
     width: 300px;
     height: 880px;
     padding: 40px;
+    box-shadow: 2px 2px #888888;;
 }
 
 #panel-detail label {
     padding: 5px;
+}
+
+p {
+    margin-right: 20px;
+
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.row input {
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
 }
 

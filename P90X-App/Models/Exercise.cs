@@ -10,7 +10,7 @@ namespace P90X_App.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
         public string Exercise_Id { get; set; }
-        public string ExerciseTitle { get; set; }
+        public string Exercise_Title { get; set; }
 
     }
 }

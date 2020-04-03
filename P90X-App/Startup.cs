@@ -31,6 +31,9 @@ namespace P90X_App
                 sp.GetRequiredService<IOptions<P90X_AppDatabaseSettings>>().Value);
 
             services.AddSingleton<WorkoutService>();
+            services.AddSingleton<ExerciseService>();
+            services.AddSingleton<UserService>();
+            services.AddSingleton<Exercise_CountService>();
 
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory

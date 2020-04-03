@@ -6,15 +6,31 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<p>{{ workout?.exercise }}</p>
-		</div>
-		<div class="row">
-			<div class="col-xs-2 checkbox">
-				<label>Workout Status <input type="checkbox" [(ngModel)]="workoutChecked" (change)="checkValue(workoutChecked?'Yes':'No')"></label>
-				<label>Diet Status <input type="checkbox" [(ngModel)]="dietChecked" (change)="checkValue(dietChecked?'Yes':'No')"></label>
-			</div>
-			<div class="col-xs-2 btn-toolbar">
-				<a class="btn btn-primary" [routerLink]="['/workouts', workout ? workout.id : 0, 'edit']">Edit</a>
+			<div class="row" *ngFor="let exercise of workout.exercises">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<p>Exercise</p><input type="text"><input type="text">
+				<ng-template *ngFor="let exercise of workout.exercises">
+					<p>{{ exercise.exercise_Title }}</p>
+				</ng-template>
+				<div class="col-xs-2 checkbox">
+					<label>Workout Status <input type="checkbox" [(ngModel)]="workoutChecked" (change)="checkValue(workoutChecked?'Yes':'No')"></label>
+					<label>Diet Status <input type="checkbox" [(ngModel)]="dietChecked" (change)="checkValue(dietChecked?'Yes':'No')"></label>
+				</div>
+				<div class="col-xs-2 btn-toolbar">
+					<a class="btn btn-primary" [routerLink]="['/workouts', workout ? workout.id : 0, 'edit']">Edit</a>
+				</div>
 			</div>
 		</div>
 	</div>

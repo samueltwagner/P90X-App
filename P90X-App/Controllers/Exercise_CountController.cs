@@ -21,7 +21,7 @@ namespace P90X_App.Controllers
         public ActionResult<List<Exercise_Count>> Get() =>
             _exercise_countService.Get();
 
-        [HttpGet("{id:length(24)}", Name = "GetExercise")]
+        [HttpGet("{id:length(24)}", Name = "GetExercise_Count")]
         public ActionResult<Exercise_Count> Get(string id)
         {
             var exercise_count = _exercise_countService.Get(id);

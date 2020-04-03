@@ -24,7 +24,9 @@ namespace P90X_App.Models
         public DateTime Date_Workout_Completed { get; set; }
 
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Exercise {get; set;}
+        public string[] Exercise {get; set;}
+
+        // public string[] Exercises {get; set;}    
 
         [BsonRepresentation(BsonType.ObjectId)]
         public string User { get; set;}
